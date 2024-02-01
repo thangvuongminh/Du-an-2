@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+.btn {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background: #171100;
+    border-radius: 24.5px;
+    min-width: 118px;
+    padding: 0 16px;
+    line-height: 50px;
+}
+.main-content {
+    padding: 0 16px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+a {
+    text-decoration: none;
+}
+.header {
+    background: #fffcf4;
+}
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 36px 0 8px;
+}
+.nav ul {
+    display: flex;
+}
+.nav {
+    margin-left: auto;
+}
+.nav a {
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5f5b53;
+    padding: 8px 21px;
+}
+
+.nav ul li.active a,
+.nav a:hover {
+    text-shadow: 1px 0 0 currentColor;
+    color: black;
+}
+.nav ul li.active a::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 2px;
+    background-color: #171100;
+    border-radius: 1px;
+    display: block;
+    left: 21px;
+    bottom: 6px;
+}
+.header .sign-up-btn {
+    min-width: 144px;
+}
+.header .fixed {
+    position: sticky;
+    top: -28px;
+}
